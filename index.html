@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./bootsrap/bootstrap.min.css">
+    <title>uy ishi</title>
+</head>
+<body>
+    <div class="container">
+      <h1 class="h1 text-center">Movies catalog</h1>
+    <div class="d-flex">
+      <form method="post" action="https://echo.htmlacademy.ru/" class="w-25">
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="text" class="form-control"
+          name="films_name" id="exampleInputEmail1" placeholder="Name" autocomplete="off" required aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="number" class="form-control"
+          name="films_age" id="exampleInputEmail1" placeholder="Age" autocomplete="off" required aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-1">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="text" class="form-control"
+          name="films_all" id="exampleInputEmail1" placeholder="All" autocomplete="off" required aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"></label>
+          <input type="number" class="form-control" name="films_rating" placeholder="Rating" id="exampleInputPassword1" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mb-4">Search</button>
+        <h2 class="h1 mb-3">Bookmarked  movies</h2>
+        <div class="container">
+          <div class="row row-cols-1 ">
+            <div class="col border mb-4">Avengers:infinity war</div>
+            <div class="col border mb-4">The avengers</div>
+            <div class="col border mb-4">12 years a slave</div>
+          </div>
+        </div>
+    </form>
+
+
+
+    <div class="main">
+      <h3 class="h4 mt-4">Search results: 39</h3>
+      <p class="bg-info p-2">Use the form on the left to search for a movie</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./images/ave.jpg" class="card-img-top" alt="ave photo">
+          <div class="card-body">
+            <h5 class="card-title">Avengers: Infinity war</h5>
+            <div class="calendar">
+              <img src="./images/calendar2-fill.svg" alt="calendar" width="20" height="20">
+              <p class="">2018</p>
+            </div>
+            <p> &#11088; 8.7</p>
+            <button type="submit" class="btn btn-outline-primary">Watch trailer</button>
+            <button type="submit" class="btn btn-outline-primary">More info</button>
+            <button type="submit" class="btn btn-outline-primary">Bookmark</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./images/robot.jpg" class="card-img-top" alt="sobo">
+          <div class="card-body">
+            <h5 class="card-title">The Avengers</h5>
+            <div class="calendar">
+              <img src="./images/calendar2-fill.svg" alt="calendar" width="20" height="20">
+              <p class="">2012</p>
+            </div>
+            <p> &#11088; 8.1</p>
+            <button type="submit" class="btn btn-outline-primary">Watch trailer</button>
+            <button type="submit" class="btn btn-outline-primary">More info</button>
+            <button type="submit" class="btn btn-outline-primary">Bookmark</button>
+          </div>
+        </div>
+      </div>
+      <div class="btn-group w-25 mx-auto" role="group" aria-label="First group">
+        <button type="button" class="btn btn-outline-info">1</button>
+        <button type="button" class="btn btn-outline-info">2</button>
+        <button type="button" class="btn btn-outline-info">3</button>
+        <button type="button" class="btn btn-outline-info">4</button>
+      </div>
+    </div>
+
+    </div>
+    <div>
+    </div>
+    <script src="./bootsrap/bootstrap.bundle.js"></script>
+</body>
+</html>
